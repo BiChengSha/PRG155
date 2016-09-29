@@ -13,9 +13,9 @@ int main(){
    printf("Enter the temperature in degrees CELCIUS: \n\n"); //promt user
    scanf("%f", celciusIn); //get input from user
    
-   fOut = FIRST_MOD*celciusIn+ADD_TO;  //calculation step
+   fOut = (FIRST_MOD*celciusIn)+ADD_TO;  //calculation step
    
-   printf("\n\nThe value entered in Fahrenheit is %.1f degrees.", fOut);  //output final result to user
+   printf("\nThe value entered in Fahrenheit is %f degrees.", fOut);  //output final result to user
    
     
    ///////////////////////////////
