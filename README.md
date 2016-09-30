@@ -14,4 +14,6 @@ September 30, 2016
 	19:47 - Added folder for PDFs
 	
 	19:50 - Put everything into folders
+	
+	19:56 - Decided a PDF folder was a bad idea. PDFs now belong in their respective lab folders
 
