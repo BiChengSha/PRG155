@@ -12,4 +12,6 @@ September 30, 2016
 	19:01 - Hopelessly spam the Readme.md file to learn basic formatting
 	
 	19:47 - Added folder for PDFs
+	
+	19:50 - Put everything into folders
 
