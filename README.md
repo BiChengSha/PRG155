@@ -3,10 +3,11 @@
 
 
 
-September 30, 2016 {
+September 30, 2016
 
 	18:34 - updated Lab 3.c
 
 	18:56 - Added Lab 1 Part 1, Part 2, and Lab 2.
 	
-}
+	19:01 - Hopelessly spam the Readme.md file to learn basic formatting
+
