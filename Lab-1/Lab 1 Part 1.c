@@ -1,3 +1,13 @@
+/*
+BiCheng Sha
+PRG155-NGH
+September 8, 2016
+
+
+Lab 1 Part 1 goes over basic output commands and modifiers in C.
+*/
+
+
 #include<stdio.h>
 int main() {
 	
