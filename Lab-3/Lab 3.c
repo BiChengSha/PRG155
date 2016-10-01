@@ -1,3 +1,13 @@
+/*
+BiCheng Sha
+PRG155-NGH
+September 30, 2016
+
+
+*/
+
+
+
 #include<stdio.h>
 #include<math.h>
 
