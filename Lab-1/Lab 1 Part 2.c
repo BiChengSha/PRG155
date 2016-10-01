@@ -1,7 +1,7 @@
 /*
 BiCheng Sha
 PRG155-NGH
-September 8, 2016
+September 15, 2016
 
 Lab 1 Part 2 covers formatting placeholders for outputting numbers and spaces
 */
