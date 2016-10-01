@@ -3,7 +3,12 @@ BiCheng Sha
 PRG155-NGH
 September 30, 2016
 
+Lab 3 introduces the scanf(); function allowing for user interaction to input values to modify the program formulas.
 
+Don't forget; scanf(); requires an & (ampersand) before the variable to work. Else it will crash the program.
+
+For questions 3 and 4, don't worry about checking if the character is a letter or not. Prof doesn't care but I implemented the catch
+   for the fun of it.
 */
 
 
