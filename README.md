@@ -1,7 +1,13 @@
 # PRG155 
 ##(Programming in C)
 
+##To copy and run individual questions in my source code, just copy and paste into your IDE and add the missing headers and main then compile.
 
+
+
+
+
+Changelog:
 
 September 30, 2016
 
