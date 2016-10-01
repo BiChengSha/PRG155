@@ -1,3 +1,12 @@
+/*
+BiCheng Sha
+PRG155-NGH
+September 8, 2016
+
+Lab 2 introduces math operators and the importing of <math.h> and the usage of pow(a, b) and sqrt(a, b)
+*/
+
+
 #include<stdio.h>
 #include<math.h>
 
