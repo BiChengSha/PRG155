@@ -24,4 +24,6 @@ September 30, 2016
 	19:56 - Decided a PDF folder was a bad idea. PDFs now belong in their respective lab folders
 	
 	20:10 - Added instructions in Readme.md
+	
+	20:31 - Added comment headers and program descriptions in them
 
