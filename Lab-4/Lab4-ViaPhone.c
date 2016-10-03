@@ -118,25 +118,27 @@ int main(){
   
   //Question 5: check if div by 5 and/or 6
   int numToDiv;
-  bool isDiv5 = false;
-  bool is div6 = false;
+  int isDiv5 = 0;
+  int isDiv6 = 0;
   
   puts("Enter a number: "); 
   scanf("%d", numToDiv);
   
   if (numToDiv % 5 = 0){
-    isDiv5 = true;
+    isDiv5 = 1;
   }
   if (numToDiv % 6 = 0){
-    isDiv6 = true;
+    isDiv6 = 1;
   }
   
-  if (isDiv5 == true && isDiv6 == true){
+  if (isDiv5 == 1 && isDiv6 == 1){
     printf("%d is divisible by 5 and 6.", numToDiv); 
-  } else if (isDiv5 == true && isDiv6 == false){
+  } else if (isDiv5 == 1 && isDiv6 == 0){
     printf("%d is divisible only by 5.", numToDiv); 
-  } else if (isDiv 5 == false && isDiv6 == true){
+  } else if (isDiv5 == 0 && isDiv6 == 1){
     printf("%d is divisible only by 6.", numToDiv); 
+  } else if (isDiv5 == 0 && isDiv6 == 0){
+    printf("%d is indivisible by neither 5 or 6.");
   }
   
   
