@@ -124,8 +124,20 @@ int main(){
   puts("Enter a number: "); 
   scanf("%d", numToDiv);
   
+  if (numToDiv % 5 = 0){
+    isDiv5 = true;
+  }
+  if (numToDiv % 6 = 0){
+    isDiv6 = true;
+  }
   
-  
+  if (isDiv5 == true && isDiv6 == true){
+    printf("%d is divisible by 5 and 6.", numToDiv); 
+  } else if (isDiv5 == true && isDiv6 == false){
+    printf("%d is divisible only by 5.", numToDiv); 
+  } else if (isDiv 5 == false && isDiv6 == true){
+    printf("%d is divisible only by 6.", numToDiv); 
+  }
   
   
 
