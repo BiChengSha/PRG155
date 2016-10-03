@@ -3,7 +3,7 @@ This file has been created off my phone because I'm too lazy to actually boot my
 
 BiCheng Sha 
 October 2, 2016
-PRG155-NGH?
+PRG155-NGH
 */
 
 #include<stdio.h>
@@ -72,7 +72,17 @@ int main(){
     printf("That's not an A or a B.\nGoodbye.");
   }
   
+  ///////////////////////////////
+  printf("\n\n\n"); //Clear lines
+   
   
+  
+  
+  //Question 4: BMI calculator
+  const float POUND_KILO = 0.453;
+  const float INCH_METER = 0.0254;
+  
+  float pound, kilo, inch, meter;
   
   
 
