@@ -37,8 +37,30 @@ puts("Invalid number.");
 }
 
 
+///////////////////////////////////
+printf("\n\n\n"); //clear lines
 
 
+
+
+
+
+//Question 2:
+
+
+int firstNum, secondNum, product;
+
+puts("Enter an integer: ");
+scanf("%d", &firstNum);
+puts("Enter a second integer: ");
+scanf("%d", secondNum);
+
+
+if(firstNum > 100 && secondNum > 100){
+
+} else if (firstNum > 100 || secondNum > 100){
+
+}
 
 
 
