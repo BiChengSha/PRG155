@@ -5,3 +5,7 @@ BiCheng Sha
 October 2, 2016
 PRG155-NGH?
 */
+
+#include<stdio.h>
+#include<math.h>
+
