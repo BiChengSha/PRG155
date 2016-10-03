@@ -20,7 +20,7 @@ int main(){
 
   if (numIn > 0){
     numResult = numIn * 3;
-    printf("%f.2 multiplied by 3 is %f.2", numIn, numResult);
+    printf("3 times %f.2 is %f.2", numIn, numResult);
   } else if (numIn < 0) {
     numResult = numIn * (-1);
     printf("The absolute value of %f.2 is %f.2", numIn, numResult);
