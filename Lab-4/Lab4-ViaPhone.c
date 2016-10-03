@@ -19,10 +19,24 @@ int main(){
 
 
 
-float numIn;
+float numIn, numResult;
 
 puts("Enter a number: ");
-scanf("%f");
+scanf("%f", &numIn);
+
+if (numIn > 0){
+numResult = numIn * 3;
+printf("%f.2 multiplied by 3 is %f.2", numIn, numResult);
+} else if (numIn < 0) {
+numResult = numIn * (-1);
+printf("The absolute value of %f.2 is %f.2", numIn, numResult);
+} else if (numIn == 0){
+puts("Your number is 0");
+} else {
+puts("Invalid number.");
+}
+
+
 
 
 
