@@ -110,12 +110,19 @@ int main(){
     puts("??????"); 
   }
   
+  ///////////////////////////////
+  printf("\n\n\n"); //Clear lines
+   
   
   
   
+  //Question 5: check if div by 5 and/or 6
+  int numToDiv;
+  bool isDiv5 = false;
+  bool is div6 = false;
   
-  
-  
+  puts("Enter a number: "); 
+  scanf("%d", numToDiv);
   
   
   
