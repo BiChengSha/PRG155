@@ -95,17 +95,19 @@ int main(){
   bmi = kilo / (pow(meter, 2));
   
   if (bmi < 16){
-    
+    printf("Your BMI is %.2f. You are severely underweight.", bmi); 
   } else if (bmi >= 16 && bmi <= 18){
-    
+    printf("Your BMI is %.2f. You are underweight.", bmi); 
   } else if (bmi > 18 && bmi <= 24){
-  
+    printf("Your BMI is %.2f. You are in the normal range.", bmi); 
   } else if (bmi > 24 && bmi <= 29){
-  
+    printf("Your BMI is %.2f. You are overweight.", bmi); 
   } else if (bmi > 29 && bmi <= 35){
-  
+    printf("Your BMI is %.2f. You are severely overweight.", bmi); 
   } else if (bmi > 35){
-  
+    printf("Your BMI is %.2f. You are gravely overweight.", bmi); 
+  } else {
+    puts("??????"); 
   }
   
   
