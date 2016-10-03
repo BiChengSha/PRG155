@@ -82,7 +82,41 @@ int main(){
   const float POUND_KILO = 0.453;
   const float INCH_METER = 0.0254;
   
-  float pound, kilo, inch, meter;
+  float pound, kilo, inch, meter, bmi;
+  
+  puts("Enter your weight in POUNDS: "); 
+  scanf("%f", &pound);
+  puts("Enter your height in INCHES: "); 
+  scanf("%f", %inch);
+  
+  kilo = pound * POUND_KILO;
+  meter = inch * INCH_METER;
+  
+  bmi = kilo / (pow(meter, 2));
+  
+  if (bmi < 16){
+    
+  } else if (bmi >= 16 && bmi <= 18){
+    
+  } else if (bmi > 18 && bmi <= 24){
+  
+  } else if (bmi > 24 && bmi <= 29){
+  
+  } else if (bmi > 29 && bmi <= 35){
+  
+  } else if (bmi > 35){
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 
