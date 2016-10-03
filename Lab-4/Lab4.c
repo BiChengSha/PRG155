@@ -1,5 +1,7 @@
 /*
-This file has been created off my phone because I'm too lazy to actually boot my PC to do this lab. 
+This file has been created off my phone because I'm too lazy to actually boot my PC to do this lab. It has been edited and debugged
+from jGrasp IDE and compiled via command line.
+
 BiCheng Sha 
 October 2, 2016
 PRG155-NGH
