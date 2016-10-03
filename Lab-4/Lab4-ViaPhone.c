@@ -49,7 +49,7 @@ int main(){
   if(firstNum > 100 && secondNum > 100){
     puts("Both numbers are greater than 100");
     product = firstNum * secondNum;
-    printf("%d", product);
+    printf("The product of the two numbers is%d", product);
   } else {
     puts("At least one of the numbers are less than 100."); 
   }
