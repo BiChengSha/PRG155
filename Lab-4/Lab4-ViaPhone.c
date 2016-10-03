@@ -1,6 +1,5 @@
 /*
 This file has been created off my phone because I'm too lazy to actually boot my PC to do this lab. 
-
 BiCheng Sha 
 October 2, 2016
 PRG155-NGH
@@ -17,6 +16,7 @@ int main(){
 
   puts("Enter a number: ");
   scanf("%f", &numIn);
+  getchar();
 
   if (numIn > 0){
     numResult = numIn * 3;
@@ -43,8 +43,10 @@ int main(){
 
   puts("Enter an integer: ");
   scanf("%d", &firstNum);
+  getchar();
   puts("Enter a second integer: ");
   scanf("%d", &secondNum);
+  getchar();
 
   if(firstNum > 100 && secondNum > 100){
     puts("Both numbers are greater than 100");
@@ -65,6 +67,7 @@ int main(){
   
   puts("Enter a character: "); 
   scanf("%c", &charIn);
+  getchar();
   
   if (charIn == 'A' || charIn == 'B'){
     printf("That's an A or a B.\nGoodbye."); 
@@ -86,8 +89,10 @@ int main(){
   
   puts("Enter your weight in POUNDS: "); 
   scanf("%f", &pound);
+  getchar();
   puts("Enter your height in INCHES: "); 
-  scanf("%f", %inch);
+  scanf("%f", &inch);
+  getchar();
   
   kilo = pound * POUND_KILO;
   meter = inch * INCH_METER;
@@ -122,12 +127,13 @@ int main(){
   int isDiv6 = 0;
   
   puts("Enter a number: "); 
-  scanf("%d", numToDiv);
+  scanf("%d", &numToDiv);
+  getchar(); 
   
-  if (numToDiv % 5 = 0){
+  if ((numToDiv % 5) == 0){
     isDiv5 = 1;
   }
-  if (numToDiv % 6 = 0){
+  if ((numToDiv % 6) == 0){
     isDiv6 = 1;
   }
   
