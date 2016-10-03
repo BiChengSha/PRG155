@@ -54,6 +54,27 @@ int main(){
     puts("At least one of the numbers are less than 100."); 
   }
 
+  ///////////////////////////////
+  printf("\n\n\n"); //Clear lines
+    
+  
+  
+  
+  //Question 3: check if input char is A or B. Output yes or no, then Goodbye from same command on seperate output lines.
+  char charIn;
+  
+  puts("Enter a character: "); 
+  scanf("%c", &charIn);
+  
+  if (charIn == 'A' || charIn == 'B'){
+    printf("That's an A or a B.\nGoodbye."); 
+  } else {
+    printf("That's not an A or a B.\nGoodbye.");
+  }
+  
+  
+  
+  
 
 
 }
