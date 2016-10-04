@@ -9,6 +9,12 @@
 
 Changelog:
 
+
+October 3, 2016
+
+	13:00 - Finshed Lab4.c | Submitted to BlackBoard.
+
+
 September 30, 2016
 
 	18:34 - Updated Lab 3.c
