@@ -10,6 +10,12 @@
 Changelog:
 
 
+October 5, 2016
+	
+	9:58 - Uploaded Lab 4 instructions PDF
+
+
+
 October 3, 2016
 
 	13:00 - Finshed Lab4.c | Submitted to BlackBoard.
