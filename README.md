@@ -12,7 +12,8 @@ Changelog:
 
 October 5, 2016
 	
-	9:58 - Uploaded Lab 4 instructions PDF
+	09:58 - Uploaded Lab 4 instructions PDF
+	10:33 - Folder for random C files for practice
 
 
 
