@@ -10,6 +10,11 @@
 Changelog:
 
 
+October 6, 2016
+	
+	15:41 - Added the extra practice documents provided from Blackboard into the "For Fun" folder just because.
+
+
 October 5, 2016
 	
 	09:58 - Uploaded Lab 4 instructions PDF
