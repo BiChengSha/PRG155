@@ -15,7 +15,7 @@ int main() {
 	//Question 1: Calculate a) Parallel resistance, b) Current through a resistor, c) Exit program
 	
 	int choice;
-	float resist1a, resist1b, totalPResist, volt, current;
+	float resist1a, resist1b, totalPResist, resist2a, volt, current;
 	char resistUnit1a, resistUnit1b, resistUnit2;
 	
 	
@@ -29,13 +29,13 @@ int main() {
 	
 	if(choice == 1){
 		puts("You have selected option 1 - Calculating parallel resistance.");
-		printf("\n\nEnter value of first resistor: ");
+		printf("\n\nEnter value of first resistor (include units later): ");
 		scanf("%f", &resist1a);
-		printf("Enter unit of measurement for the first resistor (n, u, m, O, K, M, G): ");
+		printf("\nEnter unit of measurement for the first resistor (n, u, m, O, K, M, G): ");
 		scanf("%f", &resistUnit1a);
-		printf("\n\nEnter value of second resistor: ");
+		printf("\n\nEnter value of second resistor (include units later): ");
 		scanf("%f", &resist1b);
-		printf("Enter unit of measurement for the second resistor (n, u, m, O, K, M, G): ");
+		printf("\nEnter unit of measurement for the second resistor (n, u, m, O, K, M, G): ");
 		scanf("%f", &resistUnit1b);
 		
 		if(resistUnit1a == 'n'){
@@ -76,6 +76,33 @@ int main() {
 		
 	} else if(choice == 2){
 		puts("You have selected option 2 - Calculating current flowing through a resistor.");
+		printf("\n\nEnter the numerical value of the resistor (include units later): ");
+		scanf("%f", &resist2a);
+		printf("\nEnter unit of measurement for the resistor (n, u, m, O, K, M, G): ");
+		scanf("%c", &resistUnit2);
+		printf("\n\nEnter the numerical voltage value across the resistor IN VOLTS: ");
+		scanf("%f", &volt);
+		
+		if(resistUnit2 == 'n'){
+			resist2a = resist2a * pow(10, -9);
+		} else if (resistUnit2 == 'u'){
+			resist2a = resist2a * pow(10, -6);
+		} else if (resistUnit2 == 'm'){
+			resist2a = resist2a * pow(10, -3);
+		} else if (resistUnit2 == 'O'){
+			resist2a = resist2a * pow(10, 0);
+		} else if (resistUnit2 == 'K'){
+			resist2a = resist2a * pow(10, 3);
+		} else if (resistUnit2 == 'M'){
+			resist2a = resist2a * pow(10, 6);
+		} else if (resistUnit2 == 'G'){
+			resist2a = resist2a * pow(10, 9);
+		}
+		
+		current = volt/resist2a;
+		
+		printf("\n\nThe current flowing through the resistor is %.6f amps.", current);
+		
 	} else if(choice == 3){
 		puts("You have selected option 3 - Exit.");
 		puts("Goodbye.");
