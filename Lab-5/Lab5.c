@@ -108,8 +108,10 @@ int main() {
 		puts("You have selected option 3 - Exit.");
 		puts("Goodbye.");
 		puts("Press any key to exit.");
+		getch();
 	} else {
 		puts("Invalid entry. Press any key to exit.");
+		getch();
 		puts("Goodbye");
 	}
 	
