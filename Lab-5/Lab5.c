@@ -13,6 +13,7 @@ Class: PRG155-NGH
 int main() {
 	
 	//Question 1: Calculate a) Parallel resistance, b) Current through a resistor, c) Exit program
+	//Initial goal is to write this using standard IF statements and have question 2 redo it in SWITCH/CASE
 	
 	int choice;
 	float resist1a, resist1b, totalPResist, resist2a, volt, current;
