@@ -32,55 +32,96 @@ int main() {
 		puts("You have selected option 1 - Calculating parallel resistance.");
 		printf("\n\nEnter value of first resistor (include units later): ");
 		scanf("%f", &resist1a);
+      getchar();
 		printf("\nEnter unit of measurement for the first resistor (n, u, m, O, K, M, G): ");
-		scanf("%f", &resistUnit1a);
+		scanf("%c", &resistUnit1a);
+      getchar();
 		printf("\n\nEnter value of second resistor (include units later): ");
 		scanf("%f", &resist1b);
+      getchar();
 		printf("\nEnter unit of measurement for the second resistor (n, u, m, O, K, M, G): ");
-		scanf("%f", &resistUnit1b);
+		scanf("%c", &resistUnit1b);
+      getchar(); 
 		
-		if(resistUnit1a == 'n'){
+      if(resistUnit1a == 'n'){
 			resist1a = resist1a * pow(10, -9);
+         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'u'){
 			resist1a = resist1a * pow(10, -6);
+         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'm'){
 			resist1a = resist1a * pow(10, -3);
+         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'O'){
 			resist1a = resist1a * pow(10, 0);
+         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'K'){
 			resist1a = resist1a * pow(10, 3);
+         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'M'){
 			resist1a = resist1a * pow(10, 6);
+         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'G'){
 			resist1a = resist1a * pow(10, 9);
+         printf("Resist1a = %.2f\n", resist1a);
 		}
 		
 		if(resistUnit1b == 'n'){
 			resist1b = resist1b * pow(10, -9);
+         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'u'){
 			resist1b = resist1b * pow(10, -6);
+         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'm'){
 			resist1b = resist1b * pow(10, -3);
+         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'O'){
 			resist1b = resist1b * pow(10, 0);
+         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'K'){
 			resist1b = resist1b * pow(10, 3);
+         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'M'){
 			resist1b = resist1b * pow(10, 6);
+         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'G'){
 			resist1b = resist1b * pow(10, 9);
+         printf("Resist1b = %.2f\n", resist1b);
 		}
 		
 		totalPResist = 1/((1/resist1a)+(1/resist1b));
-		
-		printf("\nThe total parallel resistance is %.2f Ohms.", totalPResist);
-		
+      
+		if (totalPResist < 0.000001){
+         totalPResist = totalPResist * pow(10, (9));
+		   printf("The total parellel resistance is %.2f nanoOhms", totalPResist);
+      } else if (totalPResist >= 0.000001 && totalPResist < 0.001){
+         totalPResist = totalPResist * pow(10, (6));
+         printf("The total parellel resistance is %.2f microOhms", totalPResist);
+      } else if (totalPResist >= 0.001 && totalPResist < 0){
+         totalPResist = totalPResist * pow(10, (3));
+         printf("The total parellel resistance is %.2f milliOhms", totalPResist);
+      } else if (totalPResist >= 0 && totalPResist < 1000){
+         totalPResist = totalPResist * pow(10, (0));
+         printf("The total parellel resistance is %.2f Ohms", totalPResist);
+      } else if (totalPResist >= 1000 && totalPResist < 1000000){
+         totalPResist = totalPResist * pow(10, (-3));
+         printf("The total parellel resistance is %.2f kiloOhms", totalPResist);
+      } else if (totalPResist >= 1000000 && totalPResist < 1000000000){
+         totalPResist = totalPResist * pow(10, (-6));
+         printf("The total parellel resistance is %.2f megaOhms", totalPResist);
+      } else if (totalPResist >= 1000000000){
+         totalPResist = totalPResist * pow(10, (-9));
+         printf("The total parellel resistance is %.2f gigaOhms", totalPResist);
+      }
+
+      
 	} else if(choice == 2){
 		puts("You have selected option 2 - Calculating current flowing through a resistor.");
 		printf("\n\nEnter the numerical value of the resistor (include units later): ");
 		scanf("%f", &resist2a);
 		printf("\nEnter unit of measurement for the resistor (n, u, m, O, K, M, G): ");
 		scanf("%c", &resistUnit2);
+      getchar();
 		printf("\n\nEnter the numerical voltage value across the resistor IN VOLTS: ");
 		scanf("%f", &volt);
 		
