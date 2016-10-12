@@ -70,6 +70,10 @@ int main() {
 			resist1b = resist1b * pow(10, 9);
 		}
 		
+		totalPResist = 1/((1/resist1a)+(1/resist1b));
+		
+		printf("\nThe total parallel resistance is %.2f Ohms.", totalPResist);
+		
 	} else if(choice == 2){
 		puts("You have selected option 2 - Calculating current flowing through a resistor.");
 	} else if(choice == 3){
