@@ -10,6 +10,11 @@
 Changelog:
 
 
+October 12, 2016
+
+	08:15 - Begin Lab 5: Switch/Case functions
+
+
 October 6, 2016
 	
 	15:41 - Added the extra practice documents provided from Blackboard into the "For Fun" folder just because.
