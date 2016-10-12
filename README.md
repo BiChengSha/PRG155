@@ -13,6 +13,7 @@ Changelog:
 October 12, 2016
 
 	08:15 - Begin Lab 5: Switch/Case functions
+	11:29 - Finshed part 1 of question 1
 
 
 October 6, 2016
