@@ -9,6 +9,10 @@
 
 Changelog:
 
+October 13, 2016
+	
+	11:33 - Finished Lab 5 Question 1
+
 
 October 12, 2016
 
