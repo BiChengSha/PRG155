@@ -21,14 +21,15 @@ int main() {
 	
 	
 	puts("Choose one of the 3 options below: ");
-	printf("\t\t\tMenu\n");
+	printf("\n\n\t\tMenu\n");
 	puts("1. Calculate Parallel Resistance.");
 	puts("2. Calculate current flowing through a resistor.");
 	puts("3. Exit.");
 	printf("\n\nChoose either 1, 2, or 3: ");
 	scanf("%d", &choice);
+   system("cls");
 	
-	if(choice == 1){
+	if(choice == 1){   /////////////////////////////////////////////////////////////CHOICE 1///////////////
 		puts("You have selected option 1 - Calculating parallel resistance.");
 		printf("\n\nEnter value of first resistor (include units later): ");
 		scanf("%f", &resist1a);
@@ -44,49 +45,49 @@ int main() {
       getchar(); 
 		
       if(resistUnit1a == 'n'){
+         printf("Resist1a = %.2f nanoOhms\n", resist1a);
 			resist1a = resist1a * pow(10, -9);
-         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'u'){
+         printf("Resist1a = %.2f microOhms\n", resist1a);
 			resist1a = resist1a * pow(10, -6);
-         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'm'){
+         printf("Resist1a = %.2f milliOhms\n", resist1a);
 			resist1a = resist1a * pow(10, -3);
-         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'O'){
+         printf("Resist1a = %.2f Ohms\n", resist1a);
 			resist1a = resist1a * pow(10, 0);
-         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'K'){
+         printf("Resist1a = %.2f kiloOhms\n", resist1a);
 			resist1a = resist1a * pow(10, 3);
-         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'M'){
+         printf("Resist1a = %.2f megaOhms\n", resist1a);
 			resist1a = resist1a * pow(10, 6);
-         printf("Resist1a = %.2f\n", resist1a);
 		} else if (resistUnit1a == 'G'){
+         printf("Resist1a = %.2f gigaOhms\n", resist1a);
 			resist1a = resist1a * pow(10, 9);
-         printf("Resist1a = %.2f\n", resist1a);
 		}
 		
 		if(resistUnit1b == 'n'){
+         printf("Resist1b = %.2f nanoOhms\n", resist1b);
 			resist1b = resist1b * pow(10, -9);
-         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'u'){
+         printf("Resist1b = %.2f microOhms\n", resist1b);
 			resist1b = resist1b * pow(10, -6);
-         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'm'){
+         printf("Resist1b = %.2f milliOhms\n", resist1b);
 			resist1b = resist1b * pow(10, -3);
-         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'O'){
+         printf("Resist1b = %.2f Ohms\n", resist1b);
 			resist1b = resist1b * pow(10, 0);
-         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'K'){
+         printf("Resist1b = %.2f kiloOhms\n", resist1b);
 			resist1b = resist1b * pow(10, 3);
-         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'M'){
+         printf("Resist1b = %.2f megaOhms\n", resist1b);
 			resist1b = resist1b * pow(10, 6);
-         printf("Resist1b = %.2f\n", resist1b);
 		} else if (resistUnit1b == 'G'){
+         printf("Resist1b = %.2f gigaOhms\n", resist1b);
 			resist1b = resist1b * pow(10, 9);
-         printf("Resist1b = %.2f\n", resist1b);
 		}
 		
 		totalPResist = 1/((1/resist1a)+(1/resist1b));
@@ -115,10 +116,11 @@ int main() {
       }
 
       
-	} else if(choice == 2){
+	} else if(choice == 2){//////////////////////////////////////////////////////////////////CHOICE 2/////
 		puts("You have selected option 2 - Calculating current flowing through a resistor.");
 		printf("\n\nEnter the numerical value of the resistor (include units later): ");
 		scanf("%f", &resist2a);
+      getchar();
 		printf("\nEnter unit of measurement for the resistor (n, u, m, O, K, M, G): ");
 		scanf("%c", &resistUnit2);
       getchar();
@@ -142,10 +144,33 @@ int main() {
 		}
 		
 		current = volt/resist2a;
+      
+      if (current < 0.000001){
+         current = current * pow(10, (9));
+		   printf("The total current flowing is %.2f nanoAmps", current);
+      } else if (current >= 0.000001 && current < 0.001){
+         current = current * pow(10, (6));
+         printf("The total current flowing is %.2f microAmps", current);
+      } else if (current >= 0.001 && current < 0){
+         current = current * pow(10, (3));
+         printf("The total current flowing is %.2f milliAmps", current);
+      } else if (current >= 0 && current < 1000){
+         current = current * pow(10, (0));
+         printf("The total current flowing is %.2f Amps", current);
+      } else if (current >= 1000 && current < 1000000){
+         current = current * pow(10, (-3));
+         printf("The total current flowing is %.2f kiloAmps", current);
+      } else if (current >= 1000000 && current < 1000000000){
+         current = current * pow(10, (-6));
+         printf("The total current flowing is %.2f megaAmps", current);
+      } else if (current >= 1000000000){
+         current = current * pow(10, (-9));
+         printf("The total current flowing is %.2f gigaAmps", current);
+      }
 		
-		printf("\n\nThe current flowing through the resistor is %.6f amps.", current);
+		//printf("\n\nThe current flowing through the resistor is %.6f amps.", current);
 		
-	} else if(choice == 3){
+	} else if(choice == 3){////////////////////////////////////////////////////////////////////CHOICE 3//////
 		puts("You have selected option 3 - Exit.");
 		puts("Goodbye.");
 		puts("Press any key to exit.");
