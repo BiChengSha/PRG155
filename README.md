@@ -15,6 +15,7 @@ October 13, 2016
 	12:58 - Finished Lab 5 Completely
 		[NOTE: DO NOT compile the entire file. Compile the individual ones to prevent glitching.
 	13:01 - Uploaded individual Lab 5 questions for ease of compilation. 
+	13:02 - Uploaded Lab 5 PDF instructions
 
 
 October 12, 2016
