@@ -12,6 +12,9 @@ Changelog:
 October 13, 2016
 	
 	11:33 - Finished Lab 5 Question 1
+	12:58 - Finished Lab 5 Completely
+		[NOTE: DO NOT compile the entire file. Compile the individual ones to prevent glitching.
+	13:01 - Uploaded individual Lab 5 questions for ease of compilation. 
 
 
 October 12, 2016
