@@ -1,3 +1,10 @@
+/*
+Lab test 1 consists of over question: to retrieve user input of either N or E for calculating the area of an equilateral triangle or to exit. Ensure measures are in place to handle non N or E input as well as properly calculating the address. 
+*/
+
+
+
+
 #include<stdio.h>
 #include<math.h>
 
