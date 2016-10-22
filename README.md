@@ -9,6 +9,10 @@
 
 Changelog:
 
+October 20, 2016
+
+	13:00 - Uploaded solution to Lab Test 1.
+
 October 13, 2016
 	
 	11:33 - Finished Lab 5 Question 1
