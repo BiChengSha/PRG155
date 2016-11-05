@@ -9,6 +9,10 @@
 
 Changelog:
 
+November 4, 2016
+
+	21:28 - Uploaded Lab 6 Q1, 2, 4, 5, 6, and 7. Some may be uncompleted. 3 is unavailable as it's uncompleted
+
 October 20, 2016
 
 	13:00 - Uploaded solution to Lab Test 1.
