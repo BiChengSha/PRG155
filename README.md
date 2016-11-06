@@ -15,6 +15,7 @@ November 5, 2016
 	23:03 - Uploaded Lab 6: Q9 (Q10 in the PDF)
 			Uploaded the PDF
 	23:08 - Uploaded Lab 6: Q3
+	23:13 - Added the instructions to the Final Assignment (10% of final mark)
 
 November 4, 2016
 
