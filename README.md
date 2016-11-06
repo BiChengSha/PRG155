@@ -16,7 +16,7 @@ November 5, 2016
 November 4, 2016
 
 	21:28 - Uploaded Lab 6 Q1, 2, 4, 5, 6, and 7. Some may be uncompleted. 3 is unavailable as it's uncompleted
-		[NOTE: Q5 WAS SKIPPED IN THE PDF, THEREFORE Q5.C = Q6 IN THE PDF AND SO ON]
+			[NOTE: Q5 WAS SKIPPED IN THE PDF, THEREFORE Q5.C = Q6 IN THE PDF AND SO ON]
 
 October 20, 2016
 
