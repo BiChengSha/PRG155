@@ -1,0 +1,235 @@
+Seneca College
+
+PRG155 FALL 2016 [163] PROJECT:
+-------------------------------------
+
+NOTE: This assignment (as well as all other assignments in
+PRG155 this semester) must be completed individually by each
+and every PRG155 student. 
+
+This assignment is worth 10% of your final grade PRG155.
+
+
+LEARNING OUTCOMES:
+-----------------
+Upon successful completion of this assignment, you will have demonstrated the
+abilities to:
+code program logic using sequence and selection statements
+read user input
+write program output
+perform arithmetic operations
+use loops to repeat instructions and validate user data
+use functions to modularize your program
+
+RECOMMENDED PREPARATION:
+-----------------
+Review the lectures from weeks 1 through 7, and complete the labs
+from weeks 1 to 7.
+
+BACKGROUND INFORMATION:
+-----------------
+For this programming project, you will be requied to write a
+C program that will ask for and validate user input and then
+generate the drawing of a multi-story building!
+
+SPECIFICATIONS (REQUIREMENTS):
+-----------------------------------------
+Your program will begin by asking the user how many floors the
+building will contain (any whole number from 1  to 1000 inclusive).
+Next, your program must ask the user how many windows are to
+be displayed on each floor (any whole number from 1 to 20 inclusive).
+For each piece of user input, your program MUST validate the user's
+selection and display an error message if invalid data is supplied.
+
+The validation for EACH piece of user input will be achieved by
+calling the function:
+
+int getValidData(int low, int high, char type);
+   This function continuously asks the user to enter a whole number
+   value from low to high inclusive and once a correct value is
+   supplied, returns that value.
+   If the parameter 'type' is 'w', then this function asks the user
+   to enter information for the number of windows on each floor.
+   If the parameter 'type' is 'f', then this function asks the user
+   to enter information for the number of floors.
+
+
+In order to display the floors, you will need to complete the
+following functions:
+
+void drawUpperFloors(int numOfWindows);
+   Given the number of windows, this function draws any main floor
+   of the building. The number of windows drawn is determined by the
+   value of the parameter 'numOfWindows'.
+   Please take note of the following details:
+   a). Each window is exactly 3 characters wide and 3 rows high.
+   b). The first window (on the left) is exactly 2 columns away
+       from the left | border of the building's wall.
+   c). The top AND bottom of the window is drawn using the = character.
+   d). The side of each window is drawn using the | character.
+   e). The top of the building is drawn using the - character and
+       the top of the window is drawn starting on the 3rd row.
+   f). The left and right sides of the building are drawn using the
+       | character and the right side of the building is 2 columns away
+       from the rightmost window.
+   g). Each window is separated from other windows using a single
+       space (column).
+   h). The bottom of the floor is left blank with one extra row
+       below the bottom of the windows.
+   i). The upper right and left corners of the floors are drawn using
+       + character.
+
+   An example of a floor with 3 windows is:
++---------------+
+|               |
+|  === === ===  |
+|  | | | | | |  |
+|  === === ===  |
+|               |
+
+   An example of a floor with 1 window is:
++-------+
+|       |
+|  ===  |
+|  | |  |
+|  ===  |
+|       |
+
+
+void drawGroundFloor(int numOfWindows);
+   This function is almost identical to the drawUpperFloors( ) function
+   except that the first window will be replaced with a door.
+   So, if the numOfWindows parameter is 2, then the ground floor will consist
+   of 1 door and 1 window.
+   If the number of windows is only 1, then only a door will be drawn.
+
+   Please take note of the following details:
+   a). Each window (and door) is exactly 3 columns wide.
+   b). The bottom of the floor is drawn using the * character.
+   c.) All other details are similar to the drawUpperFloors( ) function.
+
+   An example of a ground floor with 5 windows woulb be:
++-----------------------+
+|                       |
+|  === === === === ===  |
+|  | | | | | | | | | |  |
+|  | | === === === ===  |
+|  | |                  |
+*************************
+
+OUTPUT:
+-----------------
+Here are some sample runs of the program (with the correct output):
+
+Welcome to the PRG155 Auto Building Drawing Program
+Please enter the number of floors (1 to 1000): -2
+*** Sorry, value (-2) MUST BE between 1 and 1000 ***
+Please enter the number of floors (1 to 1000): 3
+Thank You!
+Please enter the number of windows on each floor (1 to 20): -9
+*** Sorry, value (-9) MUST BE between 1 and 20 ***
+Please enter the number of windows on each floor (1 to 20): 55
+*** Sorry, value (55) MUST BE between 1 and 20 ***
+Please enter the number of windows on each floor (1 to 20): 8
+Thank You!
+
++-----------------------------------+
+|                                   |
+|  === === === === === === === ===  |
+|  | | | | | | | | | | | | | | | |  |
+|  === === === === === === === ===  |
+|                                   |
++-----------------------------------+
+|                                   |
+|  === === === === === === === ===  |
+|  | | | | | | | | | | | | | | | |  |
+|  === === === === === === === ===  |
+|                                   |
++-----------------------------------+
+|                                   |
+|  === === === === === === === ===  |
+|  | | | | | | | | | | | | | | | |  |
+|  | | === === === === === === ===  |
+|  | |                              |
+*************************************
+
+SUBMITTING YOUR ASSIGNMENT:
+---------------------------
+Test your program on the C platforms that your instructor has
+specified. For submission purposes, your program must work
+on DevC++ version 5.11. For detailed submission requirements
+follow your instructor's assignment submission guidelines.
+
+*** NOTE *** Your program MUST use and code the functions specified
+or else will not be considered complete and MUST be resubmitted!
+
+
+Run your program several times using the sample test data displayed BELOW:
+Instructions:
+
+Input set 1:
+Number of Floors           0, -1, 2000, 25
+Number of Windows          60, -5, 6
+
+Input set 2:
+Number of Floors           1
+Number of Windows          1
+
+Input set 3:
+Number of Floors           50
+Number of Windows          20
+
+STUDENT OATH:
+-------------
+A comment with the following must appear in every file submitted.
+Please ensure that if this is part of your source code that it is placed
+in a comment so that your code will still compile.
+
+"I declare that the attached assignment is wholly my own work in accordance
+with Seneca Academic Policy. No part of this assignment has been copied
+manually or electronically from any other source (including web sites) or
+distributed to other students."
+
+Name   ________________________   Student ID  _________________
+
+
+GRADING:
+--------
+This assignment is worth 10% of your final grade. Marks will be
+awarded for correct results, coding style, and clear documentation.
+Late assignments are penalized at 10% per business day (up to a maximum of 50%).
+
+Non-working assignments (assignments that do not compile, assignments that crash,
+assignments that have logical errors, etc.) will need to be resubmitted.
+Non-working assignments are considered incomplete and must be corrected and
+resubmitted before they are considered to be complete and will automatically
+incur a 50% grade penalty. So, if the second submission is graded at 82%,
+you will receive 41% for the assignment.
+This means that if you know that your program doesn't quite work, you are better
+off to continue working on it and submitting it a bit late, than to hand in
+something just to be on-time.
+
+Clarity and conciseness of your program logic is also a consideration.
+In general, you should strive for the simplest logic that your program requires
+in order to produce the correct result.
+A program that is short and readable will be easier to maintain in the future than
+a program that is convoluted and unstructured.
+
+Appearance and neatness of the code matters also! Programs that use meaningful
+variable names, with a correct and consistent pattern of indentation
+and spacing, are easier to read and maintain than programs with identical
+logic lacking these qualities.
+
+Attention to detail in preparing an assignment submission is also important!
+Besides testing using the data with the sample runs above, you should take some care
+in designing the other test data you will use in order to thoroughly test
+the correct operation of your program.
+
+This assignment is worth 10% of your final grade in PRG155.
+
+DUE DATE:
+---------
+Friday November 25, 2016 @ 11:59:59 P.M.
+
+Good Luck!
+Any Browser!
