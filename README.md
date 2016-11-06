@@ -14,6 +14,7 @@ November 5, 2016
 	22:55 - Uploaded Lab 6: Q8 (Q9 in the PDF)
 	23:03 - Uploaded Lab 6: Q9 (Q10 in the PDF)
 			Uploaded the PDF
+	23:08 - Uploaded Lab 6: Q3
 
 November 4, 2016
 
