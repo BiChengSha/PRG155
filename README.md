@@ -9,6 +9,10 @@
 
 Changelog:
 
+November 9, 2016
+
+	09:59 - Final project blueprint
+
 November 5, 2016
 
 	22:55 - Uploaded Lab 6: Q8 (Q9 in the PDF)
