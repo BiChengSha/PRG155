@@ -12,6 +12,7 @@ Changelog:
 November 10, 2016
 
 	16:57 - Uploaded Final.c (Final project is officially done.)
+	16:59 - Uploaded Lab 7 files (Forgot to upload earlier)
 
 November 9, 2016
 
