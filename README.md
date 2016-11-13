@@ -11,7 +11,8 @@ Changelog:
 
 November 12, 2016
 
-	21:11 - Removed final.c (Final project) and uploaded a version with ONLY pseudocode to comply with the student oath which is mandatory for this project. Blueprint is still available as it's basically just the stuff we were already provided with in the instructions.
+	21:11 - Removed final.c (Final project) and uploaded a version with ONLY comments as hints to comply with the student oath which is mandatory for this project. Blueprint is still available as it's basically just the stuff we were already provided with in the instructions.
+	21:16 - Uploaded new version of the blueprint with pseudocode for the skeleton of the program. I believe this shouldn't violate the conditions of the final project student oath and should be able to be used as a reference.
 
 November 10, 2016
 
