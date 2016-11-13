@@ -9,6 +9,10 @@
 
 Changelog:
 
+November 12, 2016
+
+	21:11 - Removed final.c (Final project) and uploaded a version with ONLY pseudocode to comply with the student oath which is mandatory for this project. Blueprint is still available as it's basically just the stuff we were already provided with in the instructions.
+
 November 10, 2016
 
 	16:57 - Uploaded Final.c (Final project is officially done.)
