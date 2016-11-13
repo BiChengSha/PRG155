@@ -11,31 +11,15 @@ Description: Blueprint for the final project. Mostly pseudocode will be included
 
 #include<stdio.h>
 
-
 //Function Declarations
 int getValidData(int low, int high, char type); //Validating user inputs
 void drawUpperFloors(int numOfWindows); //Drawing all but ground floors with specified number of windows
 void drawGroundFloor(int numOfWindows); //Drawing only the ground floor with specified numbers of windows and doors
 
-
-
-
-
-
-
-
 int main(){ //Main function to call up other functions and main logic
-
-   //Constant Declarations
-   const int floorMin = 1;
-   const int floorMax = 1000;
-   const int windowMin = 1;
-   const int windowMax = 20;
    
    //Variable Declarations
    int numFloors, numWindows;
-   
-   
    
    numFloors = getValidData(floorMin, floorMax, 'f');
    numWindows = getValidData(WindowMin, WindowMax, 'w');
@@ -43,12 +27,9 @@ int main(){ //Main function to call up other functions and main logic
    drawUpperFloors(numWindows);
    drawGroundFloor(numWindows);
    
-   
    return (0);
    
 }
-
-
 
 int getValidData(int low, int high, char type){ //Validating user inputs
    
@@ -78,26 +59,15 @@ int getValidData(int low, int high, char type){ //Validating user inputs
          fflush(stdin); 
       }
    }
-   
-   
    return(userInput);
-   
 }
-
-
 
 void drawUpperFloors(int numOfWindows){ //Drawing all but ground floors with specified number of windows
-   
-   
-   
+
 }
 
-
-
 void drawGroundFloor(int numOfWindows){ //Drawing only the ground floor with specified numbers of windows and doors
-   
-   
-   
+
 }
 
 
