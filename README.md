@@ -9,6 +9,10 @@
 
 Changelog:
 
+November 30, 2016
+
+	07:56 - Excuse the hiatus, I got lazy after finishing the final project, so here's Lab 8 and 9 way too late
+
 November 12, 2016
 
 	21:11 - Removed final.c (Final project) and uploaded a version with ONLY comments as hints to comply with the student oath which is mandatory for this project. Blueprint is still available as it's basically just the stuff we were already provided with in the instructions.
