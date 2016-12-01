@@ -9,6 +9,10 @@
 
 Changelog:
 
+December 1, 2016
+
+	12:37 - Uploaded Lab Test 2. No code, just for placeholder until test is officially over.
+
 November 30, 2016
 
 	07:56 - Excuse the hiatus, I got lazy after finishing the final project, so here's Lab 8 and 9 way too late
