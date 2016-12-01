@@ -12,6 +12,7 @@ Changelog:
 December 1, 2016
 
 	12:37 - Uploaded Lab Test 2. No code, just for placeholder until test is officially over.
+	13:07 - Replaced troll message with actual code
 
 November 30, 2016
 
