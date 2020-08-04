@@ -1,7 +1,7 @@
 # PRG155 
-##(Programming in C)
+## (Programming in C)
 
-##To copy and run individual questions in my source code, copy and paste into your IDE and add the missing headers and ```int main()``` then compile.
+## To copy and run individual questions in my source code, copy and paste into your IDE and add the missing headers and ```int main()``` then compile.
 
 
 
